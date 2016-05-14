@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QX4-A2-vtH">
+                                <rect key="frame" x="286" y="28" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Odd-Ur-k06">
+                                <rect key="frame" x="140" y="617" width="94" height="30"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="A longer label"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zH9-QD-zqm">
+                                <rect key="frame" x="86" y="617" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8oe-Ot-PZe">
+                                <rect key="frame" x="140" y="547" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.24999548269999999" green="1" blue="0.059294649460000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="zH9-QD-zqm" secondAttribute="bottom" constant="20" id="Bbb-yx-wSl"/>
+                            <constraint firstItem="QX4-A2-vtH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="UfN-kZ-HJH"/>
+                            <constraint firstItem="Odd-Ur-k06" firstAttribute="top" secondItem="8oe-Ot-PZe" secondAttribute="bottom" constant="40" id="XOP-Yj-iCs"/>
+                            <constraint firstItem="8oe-Ot-PZe" firstAttribute="leading" secondItem="Odd-Ur-k06" secondAttribute="leading" id="Zhe-Y1-Xl2"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Odd-Ur-k06" secondAttribute="bottom" constant="20" id="eMW-VN-pBI"/>
+                            <constraint firstItem="Odd-Ur-k06" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="597" id="kNP-Vb-mEt"/>
+                            <constraint firstItem="Odd-Ur-k06" firstAttribute="leading" secondItem="zH9-QD-zqm" secondAttribute="trailing" constant="8" id="kP8-mP-Ndd"/>
+                            <constraint firstItem="Odd-Ur-k06" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qgF-OZ-kZV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="QX4-A2-vtH" secondAttribute="trailing" constant="27" id="wPB-Yw-7zh"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
